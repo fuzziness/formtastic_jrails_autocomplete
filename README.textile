@@ -1,11 +1,10 @@
-h1. FormtasticAutocomplete
+h1. Formtastic JRails Autocomplete
 
-An extension for Formtastic[1] to generate AJAX autocomplete fields using
-3rd party autocomplete plugins (unobtrusive javascript enable or not).
+An extension for Formtastic[1] to generate unobtrusive javascript autocomplete fields
+using using jrails_auto_complete[2].
+Should work also with other autocomplete plugins (FormBuilder must respond to text_field_with_auto_complete method).
 
 h2. Example
-
-h3. Unobtrusive version (using jrails_auto_complete[2])
 
 <pre><code><% semantic_form_for @user do |form| %>
   <% form.inputs do %>
@@ -17,14 +16,13 @@ h3. Classic AJAX version (using ?)
 
 <pre><code><% semantic_form_for @user do |form| %>
   <% form.inputs do %>
-    <%= form.input :name, :as => :autocomplete, :url => autocomplete_task_name_path %>
+    <%= form.input :name, :as => :autocomplete, :url => autocomplete_task_name_path() %>
   <% end %>
 <% end %></code></pre>
 
 h2. Dependencies
 
-You must have the formtastic gem added to your application + an autocomplete
-gem/plugin present and the :defaults javascript must be included in your layout.
+You must have the formtastic gem added to your application + an autocomplete gem/plugin present and the :defaults javascript must be included in your layout.
 
 h2. Credits
 
@@ -33,6 +31,7 @@ Thanks to Paul Smith for the "original idea":http://github.com/elandesign/formta
 h2. References
 
 fn1. "Formtastic @ GitHub":http://github.com/justinfrench/formtastic
+
 fn2. "JRails AutoComplete @ GitHub":http://github.com/michelefranzin/jrails_auto_complete.git
 
 Copyright (c) 2010 Michele Franzin, released under the MIT license
