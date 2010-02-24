@@ -19,11 +19,11 @@ Spec::Rake::SpecTask.new('specdoc') do |t|
   t.spec_opts = ["--format specdoc", "-c"]
 end
 
-desc 'Generate documentation for the formtastic_autocomplete plugin.'
+desc 'Generate documentation for the formtastic plugin.'
 Rake::RDocTask.new(:rdoc) do |rdoc|
   rdoc.rdoc_dir = 'rdoc'
-  rdoc.title    = 'FormtasticAutocomplete'
+  rdoc.title    = 'Formtastic JRails Autocomplete'
   rdoc.options << '--line-numbers' << '--inline-source'
-  rdoc.rdoc_files.include('README')
+  rdoc.rdoc_files.include('README.textile')
   rdoc.rdoc_files.include('lib/**/*.rb')
 end
