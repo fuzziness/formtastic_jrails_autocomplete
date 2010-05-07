@@ -38,6 +38,7 @@ Please direct all queries to the issue tracker:
 h2. References
 
 fn1. "Formtastic @ GitHub":http://github.com/justinfrench/formtastic
+
 fn2. "JRails AutoComplete @ GitHub":http://github.com/michelefranzin/jrails_auto_complete.git
 
 Copyright (c) 2010 Michele Franzin, released under the MIT license
