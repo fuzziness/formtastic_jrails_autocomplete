@@ -1,9 +1,7 @@
 h1. Formtastic jRails autocomplete
 
-An extension for Formtastic[1] to generate unobtrusive javascript autocomplete fields
-using using jrails_auto_complete gem/plugin[2] (unobtrusive javascript).
-Should work also with other autocomplete plugins (FormBuilder must respond to
-text_field_with_auto_complete method).
+An extension for Formtastic[1] to automagically support fields with auto completion, using jrails_auto_complete gem[2] (unobtrusive javascript).
+Should work also with other autocomplete plugins (FormBuilder must respond to text_field_with_auto_complete method).
 
 h2. Usage example
 
@@ -41,4 +39,6 @@ fn1. "Formtastic @ GitHub":http://github.com/justinfrench/formtastic
 
 fn2. "JRails AutoComplete @ GitHub":http://github.com/michelefranzin/jrails_auto_complete.git
 
-Copyright (c) 2010 Michele Franzin, released under the MIT license
+h2. Copyright
+
+Copyright (c) 2010 Michele Franzin. See LICENSE for details.
