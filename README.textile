@@ -25,7 +25,7 @@ You must have the formtastic gem added to your application + an autocomplete gem
 
 h2. Credits
 
-Thanks to Paul Smith for the "original idea":http://github.com/elandesign/formtastic_autocomplete.git
+Thanks to Paul Smith for the "original idea":http://github.com/elandesign/formtastic_autocomplete
 
 h2. Found a Bug?
 
