@@ -37,7 +37,7 @@ h2. References
 
 fn1. "Formtastic @ GitHub":http://github.com/justinfrench/formtastic
 
-fn2. "JRails AutoComplete @ GitHub":http://github.com/michelefranzin/jrails_auto_complete.git
+fn2. "JRails AutoComplete @ GitHub":http://github.com/michelefranzin/jquery_autocomplete
 
 h2. Copyright
 
